@@ -23,6 +23,11 @@ Ensure that the required Python packages (OpenCV and Pillow) are installed. You 
 pip install opencv-python
 pip install pillow
 ```
+or 
+
+```
+pip install -r requirements.txt
+```
 Place the image you want to detect faces in the images folder. Make sure the image file is in a supported format (e.g., JPEG, PNG).
 Update the image_path variable in the script (index.py) to the path of your image file ( on line 8 ). For example:
 
